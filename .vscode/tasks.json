@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+	  {
+		"label": "Build",
+		"type": "shell",
+		"command": "gcc",
+		"args": [
+			"-g",
+			"${file}",
+			"-o",
+			"${fileDirname}/${fileBasenameNoExtension}",
+			"-I/usr/include/SDL2",
+			"-L/usr/lib/x86_64-linux-gnu/",
+			"-lSDL2",
+			"-lm"
+		],
+		"group": {
+		  "kind": "build",
+		  "isDefault": true
+		},
+		"problemMatcher": []
+	  }
+	]
+  }
+  
