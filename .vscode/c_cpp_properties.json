@@ -1,0 +1,52 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/SDL2",
+                "/usr/include/SDL2/SDL2_ttf-2.20.2",
+                "/home/elijah/win_SDL/SDL2_ttf-2.20.2/x86_64-w64-mingw32/include/SDL2",
+                "/usr/bin",
+                "/usr/x86_64-w64-mingw32/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerArgs": []
+        },
+        {
+            "name": "Windows",
+            "includePath": [
+                "/home/elijah/C-projects/**",
+                "/usr/bin",
+                "/usr/win_SDL/SDL2-2.28.3",
+                "/usr/include/SDL2",
+                "/usr/include/SDL2/SDL2_ttf-2.20.2"
+            ],
+            "defines": [
+                "_WIN32"
+            ],
+            "compilerPath": "/var/lib/dpkg/alternatives/x86_64-w64-mingw32-gcc",
+            "cStandard": "c23",
+            "cppStandard": "c++23",
+            "intelliSenseMode": "windows-gcc-x86",
+            "compilerPathInCppPropertiesJson": "/var/lib/dpkg/alternatives/x86_64-w64-mingw32-gcc",
+            "mergeConfigurations": false,
+            "browse": {
+                "path": [
+                    "/home/elijah/C-projects/**",
+                    "/usr/include/SDL2",
+                    "/usr/include/SDL2/SDL2_ttf-2.20.2",
+                    "/home/elijah/win_SDL/SDL2_ttf-2.20.2/x86_64-w64-mingw32/include/SDL2",
+                    "/usr/bin",
+                    "/home/elijah/C-projects"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}

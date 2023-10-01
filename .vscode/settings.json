@@ -1,7 +1,13 @@
 {
     "files.associations": {
         "stdio.h": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "constants.h": "c",
+        "sdl_ttf.h": "c",
+        "sdl.h": "c",
+        "stdbool.h": "c",
+        "windows.h": "c",
+        "limits.h": "c"
     },
     "C_Cpp.errorSquiggles": "enabled"
 }
